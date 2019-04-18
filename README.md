@@ -2,9 +2,9 @@
 To see error that project structure dialog is showing
 
 Steps to Reproduce:
-1. Have your flavors in separate gradle file
-2. Have your dimension in gradle.properties file
-3. Apply flavors.gradle file to your module gradle files
+1. Have your flavors in separate gradle file: ![flavors.gradle](https://github.com/melihaksoy/ProjectStructureFlavorProblem/blob/master/scripts/flavors.gradle)
+2. Have your dimension in ![gradle.properties](https://github.com/melihaksoy/ProjectStructureFlavorProblem/blob/master/gradle.properties) file
+3. Apply `flavors.gradle` file to your module gradle files
 3. Project structure dialog shows error about flavors not having dimension
 
 ## Screenshots
