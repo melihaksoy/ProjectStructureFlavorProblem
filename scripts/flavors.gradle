@@ -1,0 +1,28 @@
+android {
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+        staging {
+            initWith debug
+        }
+    }
+
+    flavorDimensions DIMENSION_BRAND
+    productFlavors {
+        brand1 {
+            dimension DIMENSION_BRAND
+        }
+
+        brand2 {
+            dimension DIMENSION_BRAND
+        }
+    }
+}
